@@ -1,0 +1,341 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2;
+    font-family: Marzo, Courier New, Courier, monospace;
+}
+
+body {
+    background: url('./1280-1800.jpg') no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 25px;
+    margin: 3px;
+    text-align: center;
+    text-shadow: 1px 5px 10px -5px black;
+    letter-spacing: 1rem;
+}
+
+.name {
+    color: #ffffff;
+    font-size: 85px;
+    margin: 0 auto;
+    text-align: center;
+    text-shadow: 1px 5px 10px -5px black;
+}
+
+.header {
+    margin-bottom: 45px;
+}
+
+.white-block {
+    padding: 2px;
+    background: rgba(65, 66, 66, 0.9);
+}
+
+.dws-menu * {
+    margin: 0;
+    padding: 0;
+    font-family: Cuprum, Arial, Helvetica, sans-serif;
+}
+
+.dws-menu ul,
+.dws-menu ol {
+    list-style: none;
+}
+
+.dws-menu>ul {
+    display: flex;
+    justify-content: center;
+}
+
+.dws-menu>ul li {
+    position: relative;
+    border-right: 1px solid #c7c8ca;
+}
+
+.dws-menu>ul li:first-child {
+    border-left: 1px solid #b2b3b5;
+}
+
+.dws-menu>ul li:last-child {
+    border-right: 1px solid #babbbd;
+}
+
+.dws-menu>ul li>a i.fa {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    font-size: 18px;
+}
+
+.dws-menu>ul li a {
+    display: block;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c9c9c9+0,f6f6f6+2,c4c5c7+98,757577+100;Custom+3 */
+    background: rgb(201, 201, 201);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(201, 201, 201, 1) 0%, rgba(246, 246, 246, 1) 2%, rgba(196, 197, 199, 1) 98%, rgba(117, 117, 119, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(201, 201, 201, 1) 0%, rgba(246, 246, 246, 1) 2%, rgba(196, 197, 199, 1) 98%, rgba(117, 117, 119, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(201, 201, 201, 1) 0%, rgba(246, 246, 246, 1) 2%, rgba(196, 197, 199, 1) 98%, rgba(117, 117, 119, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#757577', GradientType=0);
+    /* IE6-9 */
+    padding: 5px 40px 5px 50px;
+    font-size: 14px;
+    color: #454547;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.dws-menu li a:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e0e1e5+0,454547+2,454547+98,e0e1e5+100 */
+    background: rgb(224, 225, 229);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(224, 225, 229, 1) 0%, rgba(69, 69, 71, 1) 2%, rgba(69, 69, 71, 1) 98%, rgba(224, 225, 229, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(224, 225, 229, 1) 0%, rgba(69, 69, 71, 1) 2%, rgba(69, 69, 71, 1) 98%, rgba(224, 225, 229, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(224, 225, 229, 1) 0%, rgba(69, 69, 71, 1) 2%, rgba(69, 69, 71, 1) 98%, rgba(224, 225, 229, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e0e1e5', endColorstr='#e0e1e5', GradientType=0);
+    /* IE6-9 */
+    color: #ffffff;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+
+
+/*sub menu*/
+
+.dws-menu li ul {
+    position: absolute;
+    min-width: 150px;
+    display: none;
+}
+
+.dws-menu li>ul li {
+    border: 1px solid #c7c8ca;
+}
+
+.dws-menu li>ul li a {
+    padding: 10px;
+    text-transform: none;
+    background: #e4e4e5;
+}
+
+.dws-menu li>ul li ul {
+    position: absolute;
+    right: -150px;
+    top: 0;
+}
+
+.dws-menu li:hover>ul {
+    display: block;
+}
+
+
+/*==== MEDIA ====*/
+
+.dws-menu [type="checkbox"],
+.dws-menu label.toggleSubmenu {
+    display: none;
+}
+
+.dws-menu label.toggleMenu {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c9c9c9+0,f6f6f6+2,c4c5c7+98,757577+100;Custom+3 */
+    background: rgb(201, 201, 201);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(201, 201, 201, 1) 0%, rgba(246, 246, 246, 1) 2%, rgba(196, 197, 199, 1) 98%, rgba(117, 117, 119, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(201, 201, 201, 1) 0%, rgba(246, 246, 246, 1) 2%, rgba(196, 197, 199, 1) 98%, rgba(117, 117, 119, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(201, 201, 201, 1) 0%, rgba(246, 246, 246, 1) 2%, rgba(196, 197, 199, 1) 98%, rgba(117, 117, 119, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#757577', GradientType=0);
+    /* IE6-9 */
+    display: none;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+}
+
+.dws-menu label.toggleMenu .fa {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    font-size: 18px;
+}
+
+@media all and (max-width: 800px) {
+    .dws-menu {
+        overflow: hidden;
+    }
+    .dws-menu ul {
+        display: block;
+        max-height: 0;
+        transition: max-height 0.3s;
+    }
+    .dws-menu li>ul li ul {
+        position: absolute;
+        right: auto;
+        top: auto;
+    }
+    .dws-menu label.toggleMenu {
+        display: block;
+    }
+    input.toggleMenu:checked+label.toggleMenu {
+        background: #000;
+        color: #fff;
+    }
+    input.toggleMenu:checked~ul,
+    input.toggleSubmenu:checked~ul {
+        display: block;
+        position: relative;
+        max-height: 5000px;
+        transition: max-height 2s ease-in;
+    }
+    .dws-menu label.toggleSubmenu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        display: block;
+    }
+    input.toggleSubmenu:checked~a {
+        background: #454547;
+        color: #fff;
+    }
+    .dws-menu label.toggleSubmenu .fa:before {
+        content: "\f0d7";
+        color: #454547;
+    }
+    .dws-menu label.toggleSubmenu .fa {
+        position: absolute;
+        top: 15px;
+        right: 30px;
+    }
+    .dws-menu input.toggleSubmenu:checked~label.toggleSubmenu .fa::before {
+        content: "\f0d8";
+        color: #ffffff;
+    }
+}
+
+.coach .photo {
+    width: 40%;
+    height: auto;
+    display: block;
+    float: left;
+    margin: 0px 5px 5px 0px;
+    background: rgba(163, 167, 170, 0.0);
+}
+
+.coach .description {
+    background: rgba(163, 167, 170, 0.0);
+    padding: 0px;
+}
+
+.coach .description h2,
+.coach .description p {
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.kdb h2,
+.kdb p {
+    margin: 0 auto;
+    text-align: right;
+    padding: 5px 10px;
+    text-shadow: 1px 15px 10px 15px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#footer {
+    padding: 5px;
+    color: goldenrod;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: rgba(10, 10, 10, 0.95);
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.finish-left {
+    background: rgba(163, 167, 170, 0.02);
+    text-align: left;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+.finish-right {
+    background: rgba(163, 167, 170, 0.02);
+    font-family: Times New Roman, Times, Georgia, serif;
+    text-align: right;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+@media screen and (max-width:800px) {
+    .name {
+        font-size: 3.2rem;
+    }
+    h1 {
+        font-size: 1.1rem;
+        letter-spacing: 0.5rem;
+    }
+    .kdb {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .name {
+        font-size: 2.5rem;
+    }
+    h1 {
+        font-size: 0.9rem;
+        letter-spacing: 0.4rem;
+    }
+    .kdb {
+        font-size: 14px;
+    }
+    .coach .photo {
+        margin: 0px 6px 6px 0px;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .name {
+        font-size: 2rem;
+    }
+    h1 {
+        font-size: 0.7rem;
+        letter-spacing: 0.3rem;
+    }
+    .kdb {
+        font-size: 12px;
+    }
+    .coach .photo {
+        margin: 0px 3px 3px 0px;
+    }
+}
