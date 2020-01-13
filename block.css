@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 2;
-    font-family: Marzo--Regular, Marzo, Courier New, Courier, 
+    font-family: Marzo--Regular, Marzo, Courier New, Courier, monospace;
+}
 
 body {
     background: url('./w1280-1800.jpg') no-repeat center top; 
