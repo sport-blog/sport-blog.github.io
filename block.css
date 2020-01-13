@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 2;
-    font-family: Marzo, Courier New, Courier, monospace;
+    font-family: Marzo--Regular, Marzo, Courier New, Courier, monospace;
 }
 
 body {
@@ -274,7 +274,7 @@ h1 {
 #footer {
     padding: 5px;
     color: goldenrod;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, serif;
     background: rgba(10, 10, 10, 0.95);
 }
 
