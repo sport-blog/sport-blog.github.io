@@ -1,5 +1,2 @@
-﻿@font-face {
-    font-family: "MarzoW00-Regular";
-    src: url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.eot");
-    src: url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.woff") format("woff"), url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.svg#MarzoW00-Regular") format("svg");
-}
+@import url(//db.onlinewebfonts.com/c/1e6ec96c95301fa73aa1d026f161a269?family=MarzoW00-Regular);
+@font-face {font-family: "MarzoW00-Regular"; src: url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.eot"); src: url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.woff") format("woff"), url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.svg#MarzoW00-Regular") format("svg"); }
