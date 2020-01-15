@@ -1,6 +1,6 @@
 @font-face {
     font-family: Marzo; /* Гарнитура шрифта */
-    src: url(/example/font/pompadur.ttf); /* Путь к файлу со шрифтом */
+    src: url(../font/marzo.woff); /* Путь к файлу со шрифтом */
    }
 
 * {
