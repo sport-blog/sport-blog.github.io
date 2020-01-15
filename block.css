@@ -1,6 +1,6 @@
 @font-face {
     font-family: Marzo; /* Гарнитура шрифта */
-    src: url(./font/marzo.woff); /* Путь к файлу со шрифтом */
+    src: url(/font/marzo.woff); /* Путь к файлу со шрифтом */
     src: url(/font/marzo.woff/Marzo.woff2); /* Путь к файлу со шрифтом */
    }
 
