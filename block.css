@@ -30,6 +30,7 @@ h1 {
     color: goldenrod;
     font-size: 25px;
     margin: 4px;
+    padding: 1px
     text-align: center;
     text-shadow: 1px 5px 10px -5px black;
     letter-spacing: 1rem;
