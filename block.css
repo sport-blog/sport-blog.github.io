@@ -1,8 +1,13 @@
+@font-face {
+    font-family: Marzo; /* Гарнитура шрифта */
+    src: url(/example/font/pompadur.ttf); /* Путь к файлу со шрифтом */
+   }
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 2;
-    font-family: Marzo--Regular, Marzo, Courier New, Courier, monospace;
+    font-family: Marzo-Regular, Marzo, Courier New, Courier, monospace;
 }
 
 body {
