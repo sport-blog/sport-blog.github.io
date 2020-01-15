@@ -301,6 +301,13 @@ h1 {
     padding: 5px;
 }
 
+a:link { 
+    color: beige
+}
+a:visited {
+    color:DarkRed
+}
+
 @media screen and (max-width:800px) {
     .name {
         font-size: 3.2rem;
