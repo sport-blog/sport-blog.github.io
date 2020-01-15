@@ -272,13 +272,13 @@ h1 {
     text-align: right;
     padding: 5px 10px;
     text-shadow: 1px 15px 10px 15px black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Arial, Cambria, Cochin, Georgia, serif;
 }
 
 #footer {
     padding: 5px;
     color: goldenrod;
-    font-family: Cambria, Cochin, Georgia, Times, serif;
+    font-family: Arial, Cambria, Cochin, Georgia, serif;
     background: rgba(10, 10, 10, 0.95);
 }
 
@@ -295,7 +295,7 @@ h1 {
 
 .finish-right {
     background: rgba(163, 167, 170, 0.02);
-    font-family: Times New Roman, Times, Georgia, serif;
+    font-family: Arial, Cambria, Cochin, Georgia, serif;
     text-align: right;
     font-size: 1.2rem;
     padding: 5px;
