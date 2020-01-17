@@ -334,6 +334,9 @@ h2,
     .kdb {
         font-size: 20px;
     }
+    .coach .photo {
+        margin: 0px 6px 6px 0px;
+    }
 }
 
 @media screen and (max-width:800px) {
@@ -346,6 +349,9 @@ h2,
     }
     .kdb {
         font-size: 20px;
+    }
+    .coach .photo {
+        margin: 0px 6px 6px 0px;
     }
 }
 
