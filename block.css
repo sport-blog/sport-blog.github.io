@@ -338,5 +338,20 @@ h2,
         margin: 0px 6px 6px 0px;
     }
 }
+@media screen and (max-width:330px) {
+    .name {
+        font-size: 2rem;
+    }
+    h1 {
+        font-size: 0.7rem;
+        letter-spacing: 0.3rem;
+    }
+    .kdb {
+        font-size: 12px;
+    }
+    .coach .photo {
+        margin: 0px 3px 3px 0px;
+    }
+}
 
 
