@@ -335,8 +335,7 @@ h2,
         font-size: 20px;
     }
     .coach .photo {
-        margin: 0px 6px 6px 0px;
-    }
+     width: 30%;
 }
 
 @media screen and (max-width:800px) {
