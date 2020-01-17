@@ -268,7 +268,7 @@ h1 {
 }
 
 .coach .photo {
-    width: 30%;
+    width: 35%;
     height: auto;
     display: block;
     float: left;
@@ -278,7 +278,7 @@ h1 {
 
 .coach .description {
     background: rgba(163, 167, 170, 0.0);
-    padding: 0px;
+    padding: 3px;
 }
 
 .coach .description h2,
