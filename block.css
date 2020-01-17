@@ -323,7 +323,7 @@ h2,
     padding: 5px;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (min-width:1024px) {
     .name {
         font-size: 3.2rem;
     }
@@ -335,7 +335,7 @@ h2,
         font-size: 20px;
     }
     .coach .photo {
-    height: 280px;
+    height: 680px;
     }
 }
 
