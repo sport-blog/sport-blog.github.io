@@ -382,6 +382,7 @@ h2,
         font-size: 12px;
     }
     .coach .photo {
+        width: 40%;
         margin: 0px 3px 3px 0px;
     }
 }
