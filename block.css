@@ -335,7 +335,8 @@ h2,
         font-size: 20px;
     }
     .coach .photo {
-    height: 450px;
+        height: 450px;
+        width: auto;    
     }
 }
 
