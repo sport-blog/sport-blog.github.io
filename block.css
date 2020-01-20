@@ -18,6 +18,8 @@ body {
     background: url('./w1280-1800.jpg') no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
+    max-width: 100%;
+    height: auto;
 }
 
 a,
@@ -257,7 +259,6 @@ h1 {
 .coach .photo {
     max-width: 100%;
     height: auto;
-    width: 40%;
     display: block;
     float: left;
     margin: 0px 5px 5px 0px;
