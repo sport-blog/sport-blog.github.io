@@ -273,7 +273,7 @@ h1 {
 
 .photo-zal2 {
     max-width: 49%;
-    margin-right: 10px;
+    margin: 0px, 10px, 5px, 10px;
     height: auto;
     justify-content: center;
 }
