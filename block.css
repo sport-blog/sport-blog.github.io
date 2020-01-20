@@ -266,12 +266,14 @@ h1 {
 
 .photo-zal1 {
     max-width: 48%;
+    margin-left: 3px;
     height: auto;
     justify-content: center;
 }
 
 .photo-zal2 {
     max-width: 48%;
+    margin-right: 3px;
     height: auto;
     justify-content: center;
 }
