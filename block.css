@@ -376,6 +376,17 @@ h2,
     .kdb {
         font-size: 20px;
     }
+    .photo-zal1 {
+        max-width: 99%;
+        margin: 1%
+    }
+    .photo-zal2 {
+        max-width: 99%;
+        margin: 1%
+    }
+    .zal {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width:500px) {
