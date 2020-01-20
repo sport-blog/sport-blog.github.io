@@ -327,6 +327,23 @@ h2,
     }
 }
 
+@media screen and (max-width:1024px) {
+    .name {
+        font-size: 3.2rem;
+    }
+    h1 {
+        font-size: 1.1rem;
+        letter-spacing: 0.5rem;
+    }
+    .kdb {
+        font-size: 20px;
+    }
+    .coach .photo {
+        height: 450px;
+        width: auto;    
+    }
+}
+
 @media screen and (max-width:800px) {
     .name {
         font-size: 3.2rem;
