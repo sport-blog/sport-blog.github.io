@@ -42,7 +42,6 @@ h1 {
 
 .name {
     color: #ffffff;
-    
     margin: 0 auto;
     text-align: center;
     text-shadow: 1px 5px 10px -5px black;
@@ -278,6 +277,8 @@ h1 {
 
 h2,
 .kdb p {
+    max-width: 100%;
+    height: auto;
     margin: 0 auto;
     text-align: right;
     padding: 5px 10px;
