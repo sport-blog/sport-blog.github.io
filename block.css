@@ -264,16 +264,21 @@ h1 {
     background: rgba(163, 167, 170, 0.0);
 }
 
+.zal {
+    display: flex;
+    margin: 1%;
+}
+
 .photo-zal1 {
     max-width: 49%;
-    margin-left: 10px;
+    margin: 1%;
     height: auto;
     justify-content: center;
 }
 
 .photo-zal2 {
     max-width: 49%;
-    margin: 0px, 10px, 5px, 10px;
+    margin: 1%;
     height: auto;
     justify-content: center;
 }
@@ -387,6 +392,17 @@ h2,
     .coach .photo {
         margin: 0px 6px 6px 0px;
     }
+    .photo-zal1 {
+        max-width: 99%;
+        margin: 1%
+    }
+    .photo-zal2 {
+        max-width: 99%;
+        margin: 1%
+    }
+    .zal {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width:330px) {
@@ -403,6 +419,17 @@ h2,
     .coach .photo {
       
         margin: 0px 3px 3px 0px;
+    }
+    .photo-zal1 {
+        max-width: 99%;
+        margin: 1%
+    }
+    .photo-zal2 {
+        max-width: 99%;
+        margin: 1%
+    }
+    .zal {
+        flex-direction: column;
     }
 }
 
