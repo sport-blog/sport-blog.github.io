@@ -255,8 +255,9 @@ h1 {
 }
 
 .coach .photo {
-    width: 40%;
+    max-width: 100%;
     height: auto;
+    width: 40%;
     display: block;
     float: left;
     margin: 0px 5px 5px 0px;
