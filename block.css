@@ -264,6 +264,18 @@ h1 {
     background: rgba(163, 167, 170, 0.0);
 }
 
+.photo-zal1 {
+    max-width: 40%;
+    height: auto;
+    justify-content: center;
+}
+
+.photo-zal2 {
+    max-width: 40%;
+    height: auto;
+    justify-content: center;
+}
+
 .coach .description {
     background: rgba(163, 167, 170, 0.0);
     padding: 3px;
