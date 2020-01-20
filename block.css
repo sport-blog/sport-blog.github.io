@@ -31,16 +31,16 @@ ul {
 
 h1 {
     color: goldenrod;
-    font-size: 25px;
     margin: 4px;
     text-align: center;
     text-shadow: 1px 5px 10px -5px black;
+    font-size: 25px;
     letter-spacing: 1rem;
 }
 
 .name {
     color: #ffffff;
-    font-size: 85px;
+    
     margin: 0 auto;
     text-align: center;
     text-shadow: 1px 5px 10px -5px black;
@@ -372,6 +372,7 @@ h2,
         margin: 0px 6px 6px 0px;
     }
 }
+
 @media screen and (max-width:330px) {
     .name {
         font-size: 2rem;
