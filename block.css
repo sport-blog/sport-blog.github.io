@@ -5,6 +5,12 @@
     /* Путь к файлу со шрифтом */
     src: url(/font/marzo.woff/Marzo.woff);
     /* Путь к файлу со шрифтом */
+    font-family: Ubuntu;
+    /* Гарнитура шрифта */
+    src: url(/font/marzo.woff/Ubuntu-Regular.woff2);
+    /* Путь к файлу со шрифтом */
+    src: url(/font/marzo.woff/Ubuntu-Regular.woff);
+    /* Путь к файлу со шрифтом */
 }
 
 * {
@@ -305,11 +311,12 @@ h2,
 }
 
 #footer {
-    padding: 5px;
-    color: goldenrod;
-    font-family: Arial, Cambria, Cochin, Georgia, serif;
+    padding-top: 20px;
     background: rgba(10, 10, 10, 0.95);
+    color: goldenrod;
+    font-family: Ubuntu, Arial, Cambria, Cochin, Georgia, serif;
 }
+
 
 .justify-content-around {
     justify-content: space-around;
