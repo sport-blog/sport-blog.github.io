@@ -437,16 +437,16 @@ h2,
         flex-direction: column;
     }
     .viber {
-        max-width: 12%;
-        margin-right: 2%;
+        max-width: 20%;
+        margin-right: 3%;
     }
     .whatsapp {
-        max-width: 12%;
-        margin-right: 2%;
+        max-width: 20%;
+        margin-right: 3%;
     }
     .tel {
-        max-width: 12%;
-        margin-right: 2%;
+        max-width: 20%;
+        margin-right: 3%;
     }
 }
 
@@ -478,16 +478,16 @@ h2,
         flex-direction: column;
     }
     .viber {
-        max-width: 20%;
-        margin-right: 2%;
+        max-width: 25%;
+        margin-right: 3%;
     }
     .whatsapp {
-        max-width: 20%;
-        margin-right: 2%;
+        max-width: 25%;
+        margin-right: 3%;
     }
     .tel {
-        max-width: 20%;
-        margin-right: 2%;
+        max-width: 25%;
+        margin-right: 3%;
     }
 }
 
