@@ -305,6 +305,8 @@ h2,
 }
 
 #footer {
+    width: 100%;
+    height: auto;
     padding-top: 20px;
     background: rgba(10, 10, 10, 0.95);
     color: white;
