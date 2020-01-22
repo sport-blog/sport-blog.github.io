@@ -402,6 +402,18 @@ h2,
     .zal {
         flex-direction: column;
     }
+     .viber {
+        max-width: 25%;
+        margin-right: 3%;
+    }
+    .whatsapp {
+        max-width: 25%;
+        margin-right: 3%;
+    }
+    .tel {
+        max-width: 25%;
+        margin-right: 3%;
+    }
 }
 
 @media screen and (max-width:500px) {
