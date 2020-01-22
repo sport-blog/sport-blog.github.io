@@ -315,8 +315,6 @@ h2,
     overflow: hidden;
     justify-content: center;
     text-align: center;
-    position: absolute;
-    bottom: 0;
 }
 
 .icons {
@@ -360,6 +358,10 @@ h2,
         height: 450px;
         width: auto;    
     }   
+    #footer {
+        position: absolute;
+        bottom: 0;
+    }
 }
 
 @media screen and (max-width:1024px) {
