@@ -432,20 +432,21 @@ h2,
         max-width: 99%;
         margin: 1%
     }
-    .zal {
-        flex-direction: column;
-    }
+    
     .zal {
         flex-direction: column;
     }
     .viber {
         max-width: 12%;
+        margin-right: 2%;
     }
     .whatsapp {
         max-width: 12%;
+        margin-right: 2%;
     }
     .tel {
         max-width: 12%;
+        margin-right: 2%;
     }
 }
 
@@ -472,20 +473,21 @@ h2,
         max-width: 99%;
         margin: 1%
     }
-    .zal {
-        flex-direction: column;
-    }
+    
     .zal {
         flex-direction: column;
     }
     .viber {
         max-width: 20%;
+        margin-right: 2%;
     }
     .whatsapp {
         max-width: 20%;
+        margin-right: 2%;
     }
     .tel {
         max-width: 20%;
+        margin-right: 2%;
     }
 }
 
