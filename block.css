@@ -311,6 +311,7 @@ h2,
     font-family: Ubuntu-Regular, Arial, Cambria, Cochin, Georgia, serif;
     overflow: hidden;
     justify-content: center;
+    text-align: center;
 }
 
 .icons {
