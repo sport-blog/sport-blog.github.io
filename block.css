@@ -311,10 +311,12 @@ h2,
     padding-bottom: 20px;
     background: rgba(10, 10, 10, 0.95);
     color: white;
-    font-family: Ubuntu-Regular, Arial, Cambria, Cochin, Georgia, serif;
+    font-family: Arial, Cambria, Cochin, Georgia, serif;
     overflow: hidden;
     justify-content: center;
     text-align: center;
+    position: absolute;
+    bottom: 0;
 }
 
 .icons {
