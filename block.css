@@ -5,12 +5,6 @@
     /* Путь к файлу со шрифтом */
     src: url(/font/marzo.woff/Marzo.woff);
     /* Путь к файлу со шрифтом */
-    font-family: Ubuntu;
-    /* Гарнитура шрифта */
-    src: url(/font/marzo.woff/Ubuntu-Regular.woff2);
-    /* Путь к файлу со шрифтом */
-    src: url(/font/marzo.woff/Ubuntu-Regular.woff);
-    /* Путь к файлу со шрифтом */
 }
 
 * {
