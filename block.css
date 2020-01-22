@@ -308,6 +308,7 @@ h2,
     width: 100%;
     height: auto;
     padding-top: 20px;
+    padding-bottom: 20px;
     background: rgba(10, 10, 10, 0.95);
     color: white;
     font-family: Ubuntu-Regular, Arial, Cambria, Cochin, Georgia, serif;
@@ -317,9 +318,8 @@ h2,
 }
 
 .icons {
-    margin: 20px;
+    margin: 0 auto;
     width: 48%;
-    float: right;
 }
 
 .viber {
