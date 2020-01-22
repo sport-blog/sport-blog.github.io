@@ -313,29 +313,43 @@ h2,
 #footer {
     padding-top: 20px;
     background: rgba(10, 10, 10, 0.95);
-    color: goldenrod;
-    font-family: Ubuntu, Arial, Cambria, Cochin, Georgia, serif;
+    color: white;
+    font-family: Ubuntu-Regular, Arial, Cambria, Cochin, Georgia, serif;
+    overflow: hidden;
+    justify-content: center;
 }
 
-
-.justify-content-around {
-    justify-content: space-around;
+.finish {
+    margin: 20px;
+    width: 48%;
+    float: right;
 }
 
-.finish-left {
-    background: rgba(163, 167, 170, 0.02);
-    font-family: Arial, Cambria, Cochin, Georgia, serif;
-    text-align: left;
-    font-size: 1.2rem;
-    padding: 5px;
+.icons {
+    margin: 20px;
+    width: 48%;
+    float: right;
 }
 
-.finish-right {
-    background: rgba(163, 167, 170, 0.02);
-    font-family: Arial, Cambria, Cochin, Georgia, serif;
-    text-align: right;
-    font-size: 1.2rem;
-    padding: 5px;
+.viber {
+    border-radius: 50%;
+    max-width: 8%;
+    margin-right: 1%;
+    height: auto;
+}
+
+.whatsapp {
+    border-radius: 50%;
+    max-width: 8%;
+    margin-right: 1%;
+    height: auto;
+}
+
+.tel {
+    border-radius: 50%;
+    max-width: 8%;
+    margin-right: 1%;
+    height: auto;
 }
 
 @media screen and (min-width:1024px) {
