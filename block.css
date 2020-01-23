@@ -11,7 +11,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 2;
-    font-family: Marzo-Regular, Marzo, Courier New, Courier, monospace;
 }
 
 body {
@@ -29,6 +28,10 @@ a:hover {
 
 ul {
     list-style: none;
+}
+
+.header {
+        font-family: Marzo-Regular, Marzo, Courier New, Courier, monospace;
 }
 
 h1 {
