@@ -1,0 +1,13 @@
+﻿User-agent: Yandex
+Disallow: /pt.home.html/
+https://sport-blog.github.io/pt.home.html
+
+
+
+User-agent: Googlebot
+Disallow: /pt.home.html/
+
+
+
+User-agent: *
+Disallow: /pt.home.html/
