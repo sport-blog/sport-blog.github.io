@@ -307,6 +307,12 @@ h2,
     font-family: Arial, Cambria, Cochin, Georgia, serif;
 }
 
+.photo-home-train {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 5%;
+
 #footer {
     width: 100%;
     height: auto;
