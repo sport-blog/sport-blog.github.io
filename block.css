@@ -319,7 +319,7 @@ h2,
 }
 
 #footer {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     padding-top: 20px;
     padding-bottom: 20px;
