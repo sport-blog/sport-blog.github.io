@@ -263,7 +263,7 @@ h4 {
 }
 
 .coach .photo {
-    max-width: 49%;
+    max-width: 45%;
     height: auto;
     display: block;
     float: left;
@@ -319,7 +319,7 @@ h2,
 }
 
 #footer {
-    padding: none;
+    
     background: rgba(65, 66, 66, 0.9);
     padding-top: 20px;
     padding-bottom: 20px;
