@@ -318,18 +318,7 @@ h2,
     margin: 5%;
 }
 
-#footer {
-    max-width: 100%;
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background: rgba(10, 10, 10, 0.95);
-    color: white;
-    font-family: Arial, Cambria, Cochin, Georgia, serif;
-    overflow: hidden;
-    justify-content: center;
-    text-align: center;
-}
+
 
 .icons {
     margin: 0 auto;
