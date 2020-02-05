@@ -357,12 +357,7 @@ h2,
     height: auto;
 }
 
-@media screen and (min-width:1400px) {
-    #footer {
-        position: absolute;
-        bottom: 0;
-    }
-}
+
 
 @media screen and (min-width:1024px) {
     .name {
