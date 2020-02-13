@@ -438,7 +438,9 @@ h2,
     .coach .photo {
         width: auto;
     }
-}
+    .photo-I_2 {
+        height: auto;
+    }
 
 @media screen and (max-width:800px) {
     .name {
