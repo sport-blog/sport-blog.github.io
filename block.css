@@ -318,6 +318,18 @@ h2,
     margin: 5%;
 }
 
+.choose_coach {
+    background-color: ;
+}
+
+.photo-box {
+    max-width: 49%;
+    height: auto;
+    display: block;
+    float: right;
+    margin: 0px 5px 5px 0px;
+}
+
 .video-container {
     position: relative;
     width: 100%;
