@@ -318,18 +318,21 @@ h2,
     margin: 5%;
 }
 
-.vidcontainer {
-position: relative;
-width: 100%;
-height: 0;
-padding-bottom: 56.25%;
+.video {
+    position: relative;
+    padding-bottom: 56, 25%;
+    height: 0;
+    overflow: hidden;
 }
-.vidY {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
+
+.video embed,
+.video object,
+.video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 #footer {
