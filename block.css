@@ -462,6 +462,18 @@ h2,
     .zal {
         flex-direction: column;
     }
+    .photo-I_1 {
+        max-width: 99%;
+        margin: 1%
+    }
+    .photo-I_2 {
+        max-width: 99%;
+        margin: 1%
+    }
+    .photo-I_3 {
+        max-width: 99%;
+        margin: 1%
+    }
     .viber {
         max-width: 25%;
         margin-right: 3%;
