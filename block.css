@@ -330,6 +330,10 @@
         font-family: Arial, Cambria, Cochin, Georgia, serif;
     }
     
+    h1 {
+        font-size: 28px;
+    }
+    
     .photo-home-train {
         max-width: 90%;
         height: auto;
@@ -439,6 +443,12 @@
             font-size: 1.1rem;
             letter-spacing: 0.5rem;
         }
+        h1 {
+            font-size: 22px;
+        }
+        h2 {
+            font-size: 22px;
+        }
         .kdb {
             font-size: 20px;
         }
@@ -457,6 +467,12 @@
         h4 {
             font-size: 1.1rem;
             letter-spacing: 0.5rem;
+        }
+        h1 {
+            font-size: 20px;
+        }
+        h2 {
+            font-size: 20px;
         }
         .kdb {
             font-size: 20px;
@@ -506,6 +522,12 @@
             font-size: 0.9rem;
             letter-spacing: 0.4rem;
         }
+        h1 {
+            font-size: 18px;
+        }
+        h2 {
+            font-size: 18px;
+        }
         .kdb {
             font-size: 14px;
         }
@@ -548,6 +570,12 @@
         h4 {
             font-size: 0.7rem;
             letter-spacing: 0.3rem;
+        }
+        h1 {
+            font-size: 16px;
+        }
+        h2 {
+            font-size: 16px;
         }
         .kdb {
             font-size: 12px;
