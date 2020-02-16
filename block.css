@@ -350,7 +350,11 @@ h3,
     padding: 5px;
     background-color: #FFFFFF;
     box-shadow: 1px 8px 10px 5px #454547;
-}                                                                                                                          
+}
+
+.myself {
+    padding-top: 30px;
+}
 
 .photo-box {
     max-width: 49%;
