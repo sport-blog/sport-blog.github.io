@@ -345,6 +345,13 @@ h3,
     background-color: ;
 }
 
+.box-container {
+    margin: 0;
+    padding: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 8px 10px 5px #454547;
+}                                                                                                                          
+
 .photo-box {
     max-width: 49%;
     height: auto;
