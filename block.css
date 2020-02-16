@@ -525,6 +525,10 @@ h3,
         max-width: 99%;
         margin: 1%
     }
+    .photo-box {
+        max-width: 99%;
+        margin: 1%
+    }
     .zal {
         flex-direction: column;
     }
@@ -561,6 +565,10 @@ h3,
         margin: 1%
     }
     .photo-zal2 {
+        max-width: 99%;
+        margin: 1%
+    }
+    .photo-box {
         max-width: 99%;
         margin: 1%
     }
