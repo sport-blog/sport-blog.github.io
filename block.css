@@ -410,12 +410,10 @@ footer {
 }
 
 .black-block {
-    margin-top: 10px;
     max-width: 100%;
     height: auto;
     padding: 1em;
     background-color: #000000;
-    box-shadow: 2px 5px 10px 1px #c0c0c0;
 }
 
 footer a {
