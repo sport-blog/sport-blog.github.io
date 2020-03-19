@@ -387,9 +387,13 @@
         overflow: hidden;
         justify-content: center;
         text-align: center;
-        font-family: Cuprum, Arial, Helvetica, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
     }
     
+footer.name {
+    font-family: Marzo, Arial, Helvetica, sans-serif;
+}
+
     .icons {
         margin: 0 auto;
         width: 40%;
