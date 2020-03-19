@@ -61,7 +61,7 @@
     
     .gray-block {
         padding: 2px;
-        background: #000000;
+        background: #2e2e2e;
     }
     
     .dws-menu * {
@@ -382,7 +382,7 @@
     #footer {
         width: 100%;
         height: auto;
-        background: #000000;
+        background: #2e2e2e;
         color: white;
         overflow: hidden;
         justify-content: center;
