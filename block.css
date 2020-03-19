@@ -382,11 +382,9 @@
     #footer {
         width: 100%;
         height: auto;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        background: rgba(10, 10, 10, 0.95);
+        background: #000000;
         color: white;
-        font-family: Arial, Cambria, Cochin, Georgia, serif;
+        font-family: Marzo, Arial, Cambria, Cochin, Georgia, serif;
         overflow: hidden;
         justify-content: center;
         text-align: center;
@@ -394,7 +392,7 @@
     
     .icons {
         margin: 0 auto;
-        width: 48%;
+        width: 40%;
     }
     
       
