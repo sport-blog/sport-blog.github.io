@@ -1,4 +1,4 @@
-﻿@font-face {
+@font-face {
     font-family: Marzo;
     /* Гарнитура шрифта */
     src: url(/font/marzo.woff/Marzo.woff2);
@@ -276,14 +276,14 @@ h4 {
     margin: 1%;
 }
 
-.photo-zal1 {
+.photo_gym_one {
     max-width: 49%;
     margin: 1%;
     height: auto;
     justify-content: center;
 }
 
-.photo-zal2 {
+.photo_gym_two {
     max-width: 49%;
     margin: 1%;
     height: auto;
@@ -500,11 +500,11 @@ footer a {
     .kdb {
         font-size: 20px;
     }
-    .photo-zal1 {
+    .photo_gym_one {
         max-width: 99%;
         margin: 1%
     }
-    .photo-zal2 {
+    .photo_gym_two {
         max-width: 99%;
         margin: 1%
     }
@@ -545,11 +545,11 @@ footer a {
     .coach .photo {
         margin: 0px 6px 6px 0px;
     }
-    .photo-zal1 {
+    .photo_gym_one {
         max-width: 99%;
         margin: 1%
     }
-    .photo-zal2 {
+    .photo_gym_two {
         max-width: 99%;
         margin: 1%
     }
@@ -582,11 +582,11 @@ footer a {
     .coach .photo {
         margin: 0px 3px 3px 0px;
     }
-    .photo-zal1 {
+    .photo_gym_one {
         max-width: 99%;
         margin: 1%
     }
-    .photo-zal2 {
+    .photo_gym_two {
         max-width: 99%;
         margin: 1%
     }
