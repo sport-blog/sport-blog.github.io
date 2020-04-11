@@ -290,21 +290,21 @@ h4 {
     justify-content: center;
 }
 
-.photo-I_1 {
+.photo-young {
     max-width: 28%;
     margin: 1%;
     height: auto;
     justify-content: center;
 }
 
-.photo-I_2 {
+.photo-scene {
     max-width: 29%;
     margin: 1%;
     height: auto;
     justify-content: center;
 }
 
-.photo-I_3 {
+.photo-waterfall {
     max-width: 35%;
     margin: 1%;
     height: auto;
@@ -478,7 +478,7 @@ footer a {
     .coach .photo {
         width: auto;
     }
-    .photo-I_2 {
+    .photo-scene {
         height: auto;
     }
 }
@@ -511,15 +511,15 @@ footer a {
     .zal {
         flex-direction: column;
     }
-    .photo-I_1 {
+    .photo-young {
         max-width: 99%;
         margin: 1%
     }
-    .photo-I_2 {
+    .photo-scene {
         max-width: 99%;
         margin: 1%
     }
-    .photo-I_3 {
+    .photo-waterfall {
         max-width: 99%;
         margin: 1%
     }
