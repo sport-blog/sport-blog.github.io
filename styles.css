@@ -37,7 +37,6 @@ h4 {
     color: #FFFFFF;
     margin: 4px;
     text-align: center;
-    text-shadow: 1px 5px 10px -5px black;
     font-size: 25px;
     letter-spacing: 1rem;
 }
@@ -46,7 +45,6 @@ h4 {
     color: #ffffff;
     margin: 0 auto;
     text-align: center;
-    text-shadow: 1px 5px 10px -5px black;
 }
 
 .header {
@@ -396,7 +394,6 @@ footer a {
     color: #FFFFFF;
     margin: 3px;
     text-decoration: none;
-    a: hover;
 }
 
 .tel {
