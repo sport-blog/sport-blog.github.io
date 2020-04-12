@@ -120,7 +120,7 @@ h4 {
     transition: all 0.3s ease;
 }
 
-.dws-menu li a:hover {
+.dws-menu li a: hover {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e0e1e5+0,454547+2,454547+98,e0e1e5+100 */
     background: rgb(224, 225, 229);
     /* Old browsers */
