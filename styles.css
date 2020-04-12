@@ -166,7 +166,6 @@ h4 {
     display: block;
 }
 
-
 .dws-menu [type="checkbox"],
 .dws-menu label.toggleSubmenu {
     display: none;
@@ -314,7 +313,6 @@ h3,
     margin: 0 auto;
     text-align: left;
     padding: 5px 20px;
-    text-shadow: 1px 15px 10px 15px black;
     font-family: Arial, Cambria, Cochin, Georgia, serif;
 }
 
