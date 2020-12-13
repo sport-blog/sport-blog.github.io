@@ -356,6 +356,61 @@ h1 {
     height: 100%;
 }
 
+/* button */
+
+.form {
+    width: 50%;
+    margin: 10px auto;
+}
+
+.feedback-input {
+    color: #000;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    background-color: aliceblue;
+    padding: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0px solid transparent;
+    border-bottom: 1px solid #000;
+}
+
+textarea {
+    width: 680px;
+    height: 60px;
+    resize: vertical;
+}
+
+.button-submit {
+    float: left;
+    width: 100%;
+    border: 0px solid transparent;
+    cursor: pointer;
+    background-color: #4D6675;
+    color: aliceblue;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0, 3s;
+    margin-top: -6px;
+    font-weight: 300;
+}
+
+.button-submit:hover {
+    background-color: aliceblue;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.ease {
+    width: 0;
+    height: 44px;
+    background-color: #fbfbfb;
+    transition: .3s ease;
+}
+
 #footer {
     width: 100%;
     background: #2e2e2e;
