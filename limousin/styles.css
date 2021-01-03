@@ -184,6 +184,7 @@ summary {
 
 .sclear {
     clear: both;
+    list-style-type: none;
 }
 
 
