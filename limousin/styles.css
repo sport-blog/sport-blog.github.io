@@ -184,9 +184,11 @@ summary {
 
 .sclear {
     clear: both;
-    list-style-type: none;
 }
 
+.sclear li {
+list-style-type: none;
+}
 
 /* button */
 
