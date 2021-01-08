@@ -328,7 +328,6 @@ h1 {
     font-size: 16px;
     text-align: center;
     padding: 1em;
-    margin: 1rem;
 }
 
 .welcome{
@@ -350,7 +349,6 @@ h1 {
 
 .our_boats__boat {
     background-color: #d1d4d6;
-    overflow: hidden;
     text-align: center;
 }
 
@@ -434,12 +432,11 @@ footer a {
         justify-items: center;
         align-items: center;
         height: 100%;
-        font-size: 24px;
-        padding: 2em;
+        font-size: 22px;
     }    
 }
 
-@media screen and (min-width: 550px){
+@media screen and (min-width: 650px){
     .photo_right {
         max-width: 45%;
         display: inline-block;
