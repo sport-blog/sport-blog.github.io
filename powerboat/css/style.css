@@ -2,7 +2,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    font-size: 20px;
     background-image: url("../img/concrete-texture.png");
+}
+
+.wrapper {
+    margin: 10px;
 }
 
 #header {
@@ -326,17 +331,20 @@ h1 {
     height: 100%;
     font-size: 24px;
     text-align: center;
+    padding: 2em;
 }
 
 .welcome{
-    display: grid;
-    grid-template-columns: 1fr 10fr 4fr 1fr;
     grid-gap: 1em;
     padding: 2em;
 }
 
-.cell10 {
-    border: 1px solid rgb(211, 211, 211);
+.cell {
+    border: 1px solid rgb(211, 211, 211);    
+}
+
+.responsive{
+    font-size: 18px;
 }
 
 .grid div:nth-child(3) {
@@ -418,3 +426,12 @@ footer a {
         transform: translateX(0);
     }
 }
+
+@media screen and (min-width: 1050px){
+    .welcome{
+        display: grid;
+        grid-template-columns: 1fr 10fr 4fr 1fr;
+        grid-gap: 1em;
+        padding: 2em;
+    }
+    }
