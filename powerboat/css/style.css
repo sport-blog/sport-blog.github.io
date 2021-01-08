@@ -313,7 +313,7 @@ h1 {
     border: 1px solid rgb(0, 0, 0);
 }
 
-.doch{
+.our_boats{
     display: grid;
     grid-gap: 1em;
     padding: 1em;
@@ -343,7 +343,7 @@ h1 {
     grid-row: 1/4;
 }
 
-.boat {
+.our_boats__boat {
     background-color: #d1d4d6;
     overflow: hidden;
     text-align: center;
