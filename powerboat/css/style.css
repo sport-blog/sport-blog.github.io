@@ -325,7 +325,7 @@ h1 {
 }
 
 .advantages{
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     padding: 1em;
 }
@@ -441,7 +441,6 @@ footer a {
         justify-items: center;
         align-items: center;
         height: 100%;
-        font-size: 20px;
     }    
 }
 
