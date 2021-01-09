@@ -321,6 +321,11 @@ h1 {
     display: grid;
     grid-gap: 1em;
     padding: 1em;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.our_boats:hover {
+    box-shadow: 2px 2px 2px gray;
 }
 
 .advantages{
@@ -349,6 +354,7 @@ h1 {
 .our_boats__boat {
     background-color: #d1d4d6;
     text-align: center;
+    cursor: pointer;
 }
 
 .photo_right {
