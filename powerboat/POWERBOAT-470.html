@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset=utf-8>
+    <title>Лодки и катера POWERBOAT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/media.css" type="text/css" media="all and (max-width:900px)">
+</head>
+
+<body>
+
+
+    <wrapper>
+
+        <header id="header">
+
+
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <a class="navbar-brand">
+                        <div class="logo">
+                            <img class="logo-boat" src="img/main_logo.svg" alt="+380638587378"></div>
+                    </a>
+                </div>
+                <div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Главная</a></li>
+                        <li><a href="#">Каталог</a></li>
+                        <li><a href="#">События</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+
+
+
+
+
+
+
+
+
+        </header>
+
+        <main id="main">
+            <div id="dws-slider" class="carousel slide" data-ride="carousel">
+
+
+                <!--Показатели-->
+                <ol class="carousel-indicators">
+                    <li data-target="#dws-slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#dws-slider" data-slide-to="1"></li>
+                    <li data-target="#dws-slider" data-slide-to="2"></li>
+                </ol>
+
+                <!--Обертка для слайдов-->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active"><img src="img/470.png" alt="Картинка 1">
+                        <div class="carousel-caption">
+                            <h3 class="text-uppercase">POWERBOAT 470</h3>
+                            <p class="specifications">КИЛЕВАТОСТЬ 14°/24° <br> МАКСИМАЛЬНАЯ МОЩНОСТЬ 115 ЛС <br> МАССА 470 КГ</p>
+                        </div>
+                    </div>
+                    <div class="item"><img src="img/475.png" alt="Картинка 2">
+                        <div class="carousel-caption">
+                            <h3 class="text-uppercase">POWERBOAT 475</h3>
+                            <p class="specifications">КИЛЕВАТОСТЬ 11.7°/17° <br> МАКСИМАЛЬНАЯ МОЩНОСТЬ 60 ЛС <br> МАССА 430 КГ</p>
+                        </div>
+                    </div>
+                    <div class="item"><img src="img/420.png" alt="Картинка 3">
+                        <div class="carousel-caption">
+                            <h3 class="text-uppercase">POWERBOAT 420</h3>
+                            <p class="specifications">КИЛЕВАТОСТЬ 9°/14° <br> МАКСИМАЛЬНАЯ МОЩНОСТЬ 40 ЛС <br> МАССА 215 КГ</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Элементы управления-->
+                <a class="left carousel-control" href="#dws-slider" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#dws-slider" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+    </wrapper>
+    <script>
+        $('.carousel').carousel({
+            interval: 6000
+        })
+    </script>
+
+    <div class="about-us">
+        <P>Наша компания "POWERBOAT" основана в 2015 году. Мы занимаемся производством и продажей моторных катеров и понтонных лодок, подъемных механизмов и аксессуаров для водного транспорта. Наши высококвалифицированные специалисты имеют возможность воплотить
+            так же и вашу мечту в реальность – создать такую лодку, о которой вы всегда мечтали.</P>
+    </div>
+
+    <form class="form">
+        <p><input type="text" name="name" class="feedback-input" placeholder="Имя"></p>
+        <p><input type="tel." name="tel." class="feedback-input" placeholder="Тел." id="tel."></p>
+        <p><textarea name="text" id="comment" placeholder="Сообщение" class="feedback-input" cols="93" rows="5"></textarea></p>
+        <input type="submit" value="Отправить" class="button-submit">
+        <div class="ease"></div>
+    </form>
+
+
+
+    </main>
+    <footer id="footer">
+        <div class="black-block">
+            <div id="menu_item_contacts" class="Контакты">
+                <nav class="menu footer">
+                    <a href="#menu_item_Start">Главная</a>
+                    <a href="#menu_item_Avtopark">Каталог</a>
+                    <a href="#menu_item_Usloviya">События</a>
+                    <a href="#menu_item_Akcii">Контакты</a>
+                </nav>
+
+
+
+                <a href="tel:+380638587378">
+                    <img class="tel" src="img/main_logo.svg" alt="+380638587378">
+                </a>
+                <p class="number">+380638587378</p>
+
+
+                <div class="lowername">POWERBOAT</div>
+            </div>
+
+
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
