@@ -21,7 +21,8 @@
                 <div class="navbar-header">
                     <a class="navbar-brand">
                         <div class="logo">
-                            <img class="logo-boat" src="img/main_logo.svg" alt="+380638587378"></div>
+                            <img class="logo-boat" src="img/main_logo.svg" alt="+380638587378">
+                        </div>
                     </a>
                 </div>
                 <div>
@@ -30,26 +31,20 @@
                         <li><a href="index-catalog.html">Каталог</a></li>
                         <li><a href="index-contacts.html">Контакты</a></li>
                     </ul>
-                    <div>
+                    <span>
                         <h1>Лодки и катера POWERBOAT</h1>
-                    </div>
+                    </span>
                 </div>
             </nav>
         </header>
-
-
-
         <main id="main">
             <div id="dws-slider" class="carousel slide" data-ride="carousel">
-
-
                 <!--Показатели-->
                 <ol class="carousel-indicators">
                     <li data-target="#dws-slider" data-slide-to="0" class="active"></li>
                     <li data-target="#dws-slider" data-slide-to="1"></li>
                     <li data-target="#dws-slider" data-slide-to="2"></li>
                 </ol>
-
                 <!--Обертка для слайдов-->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active"><img src="img/470.png" alt="Картинка 1">
@@ -71,7 +66,6 @@
                         </div>
                     </div>
                 </div>
-
                 <!--Элементы управления-->
                 <a class="left carousel-control" href="#dws-slider" role="button" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -82,21 +76,18 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+            <script>
+                $('.carousel').carousel({
+                    interval: 6000
+                })
+            </script>      
+            <div class="about-us">
+                <div></div>
+                <div class="advantages"><P>Наша компания "POWERBOAT" основана в 2015 году. Мы занимаемся производством и продажей моторных катеров и понтонных лодок, подъемных механизмов и аксессуаров для водного транспорта. Наши высококвалифицированные специалисты имеют возможность воплотить
+                    так же и вашу мечту в реальность – создать такую лодку, о которой вы всегда мечтали.</P></div>
+                <div></div>    
+            </div>    
         </main>
-        <script>
-            $('.carousel').carousel({
-                interval: 6000
-            })
-        </script>
-        
-
-        <div class="about-us">
-            <div></div>
-            <div class="advantages"><P>Наша компания "POWERBOAT" основана в 2015 году. Мы занимаемся производством и продажей моторных катеров и понтонных лодок, подъемных механизмов и аксессуаров для водного транспорта. Наши высококвалифицированные специалисты имеют возможность воплотить
-                так же и вашу мечту в реальность – создать такую лодку, о которой вы всегда мечтали.</P></div>
-            <div></div>    
-        </div>
-
         <footer id="footer">
             <div class="black-block">
                 <div id="menu_item_contacts" class="Контакты">
@@ -106,9 +97,6 @@
                         <a href="#menu_item_Usloviya">События</a>
                         <a href="#menu_item_Akcii">Контакты</a>
                     </nav>
-
-
-
                     <a href="tel:+380638587378">
                         <img class="tel" src="img/main_logo.svg" alt="+380638587378">
                     </a>
