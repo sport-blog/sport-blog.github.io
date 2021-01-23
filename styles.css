@@ -132,6 +132,17 @@ h6 {
     font-style: italic;
 }
 
+.options {
+    display: grid;
+}
+
+.grid-item {
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 16*1fr;
+    gap: 2px;
+    border-color: #6E7884;
+}
+
 .container-footer {
     padding: 2% 12% 2% 20%;
 }

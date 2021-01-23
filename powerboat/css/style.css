@@ -13,6 +13,10 @@ body {
     background-color: #fff;
 }
 
+.slider_position {
+    padding-top: 2em;
+}
+
 .dws-menu * {
     margin: 0;
     padding: 0;
@@ -313,10 +317,6 @@ h1 {
 
 }
 
-.cell12{
-    border: 1px solid rgb(0, 0, 0);
-}
-
 .our_boats{
     display: grid;
     grid-gap: 1em;
@@ -326,6 +326,47 @@ h1 {
 
 .our_boats:hover {
     box-shadow: 2px 2px 2px gray;
+}
+
+
+.our_boats__boat {
+    background-color: #d1d4d6;
+    text-align: center;
+    cursor: pointer;
+}
+
+.characteristics {
+    text-align: center;
+}
+
+.boat_models {
+    grid-gap: 1em;
+    padding: 1em;
+    box-shadow: 5px 5px 5px rgb(134, 134, 134);
+}
+
+.characteristics__boat {
+    grid-gap: 1em;
+    padding: 1em;
+    box-shadow: 5px 5px 5px rgb(134, 134, 134);
+}
+
+.characteristics__boat:first-child {
+    box-shadow: none;
+}
+
+.characteristics__boat:last-child {
+    box-shadow: none;
+}
+
+.boat_models__boat {
+    background-color: #d1d4d6;
+    padding-top: 1em;
+}
+
+.characteristics__models {
+    background-color: #d1d4d6;
+    padding-top: 1em;
 }
 
 .advantages{
@@ -339,8 +380,9 @@ h1 {
     padding: 1em;
 }
 
-.cell {
-    border: 1px solid rgb(211, 211, 211);    
+.equipment{
+    grid-gap: 1em;
+    padding: 1em 1em 3em;
 }
 
 .responsive{
@@ -351,13 +393,12 @@ h1 {
     grid-row: 1/4;
 }
 
-.our_boats__boat {
-    background-color: #d1d4d6;
-    text-align: center;
-    cursor: pointer;
+.photo_right {
+    max-width: 100%;
+    padding: 1em;
 }
 
-.photo_right {
+.photo_bottom {
     max-width: 100%;
     padding: 1em;
 }
@@ -368,14 +409,35 @@ h1 {
     padding: 5px;
 }
 
+.specifications {
+    background-color: #fff;
+    margin: 1em;
+    padding: 1em;
+}
+
+.specifications__b {
+    font-size: 16px;
+    text-align: start;
+    margin: 0 auto;
+}
+
+.numeral {
+    text-align: end;
+}
+
 summary {
     outline: none;
     color: rgb(7, 86, 136);
 }
 
+.center {
+    text-align: center;
+}
+
 .form {
     width: 50%;
     margin: 10px auto;
+    padding-top: 2em;
 }
 
 footer {
@@ -431,6 +493,17 @@ footer a {
         grid-template-columns: 1fr 10fr 4fr 1fr;
         grid-gap: 1em;
         padding: 2em;
+    }
+    .equipment{
+        display: grid;
+        grid-template-columns: 1fr 6fr 6fr 1fr;
+        grid-gap: 1em;
+    }
+    .characteristics {
+        display: grid;
+        grid-template-columns: 1fr 4fr 4fr 4fr 1fr;
+        grid-gap: 1em;
+        height: 100%;
     }
 }
 
