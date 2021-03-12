@@ -33,6 +33,10 @@ ul {
     font-family: Marzo-Regular, Marzo, Courier New, Courier, monospace;
 }
 
+.wrapper {
+    padding: 0 150px;
+}
+
 h4 {
     color: #FFFFFF;
     margin: 4px;
@@ -313,13 +317,17 @@ h2,
 h3,
 .kdb p {
     margin: 0 auto;
-    text-align: left;
+    text-align: center;
     padding: 5px 20px;
     font-family: Arial, Cambria, Cochin, Georgia, serif;
 }
 
 h1 {
     font-size: 28px;
+}
+
+.lozung {
+    text-align: center;
 }
 
 .photo-home-train {
@@ -358,6 +366,13 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.DumbbellsIcon {
+    list-style-image: url(icons/dumbbell50px.png);
+    padding: 10px;
+    margin: 40px;
+    line-height: 2rem;
 }
 
 /* button */
