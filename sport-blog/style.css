@@ -370,8 +370,8 @@ h1 {
 
 .DumbbellsIcon {
     list-style-image: url(icons/dumbbell50px.png);
-    padding: 10px;
-    margin: 20px;
+    padding: 20px;
+    margin: 40px;
     line-height: 2rem;
 }
 
