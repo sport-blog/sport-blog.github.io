@@ -34,7 +34,7 @@ ul {
 }
 
 .wrapper {
-    padding: 0 150px;
+    padding: 0 120px;
 }
 
 h4 {
@@ -371,7 +371,7 @@ h1 {
 .DumbbellsIcon {
     list-style-image: url(icons/dumbbell50px.png);
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
     line-height: 2rem;
 }
 
@@ -565,6 +565,9 @@ footer a {
         max-width: 99%;
         margin: 1%
     }
+    .wrapper {
+        padding: 0 20px;
+    }    
 }
 
 @media screen and (max-width:500px) {
