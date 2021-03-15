@@ -368,11 +368,20 @@ h1 {
     height: 100%;
 }
 
+.photo-coach {
+    float: left;
+    max-width: 40%;
+    padding: 3em;
+}
+
 .DumbbellsIcon {
     list-style-image: url(icons/dumbbell50px.png);
     padding: 10px;
     margin: 20px;
     line-height: 2rem;
+}
+.coach-photo {
+    float: left;
 }
 
 /* button */
