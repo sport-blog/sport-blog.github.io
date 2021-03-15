@@ -371,11 +371,21 @@ h1 {
 .photo-coach {
     float: left;
     max-width: 40%;
-    padding: 3em;
+    min-width: 350px;
+    padding: 1em;
+}
+
+.coach-block {
+
+    float: left;
 }
 
 .price {
     font-style: italic;
+}
+
+.motivation {
+    padding-top: 5em;
 }
 
 .DumbbellsIcon {
@@ -383,9 +393,6 @@ h1 {
     padding: 10px;
     margin: 20px;
     line-height: 2rem;
-}
-.coach-photo {
-    float: left;
 }
 
 /* button */
@@ -577,6 +584,9 @@ footer a {
     .photo-waterfall {
         max-width: 99%;
         margin: 1%
+    }
+    .photo-coach {
+        max-width: 100%;
     }
     .wrapper {
         padding: 0 20px;
