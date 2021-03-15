@@ -374,6 +374,10 @@ h1 {
     padding: 3em;
 }
 
+.price {
+    font-style: italic;
+}
+
 .DumbbellsIcon {
     list-style-image: url(icons/dumbbell50px.png);
     padding: 10px;
