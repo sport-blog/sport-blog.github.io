@@ -358,6 +358,7 @@ h1 {
     position: relative;
     width: 98%;
     padding-bottom: 56.25%;
+    margin-bottom: 1em;
 }
 
 .video-container embed {
@@ -388,11 +389,19 @@ h1 {
     padding-top: 5em;
 }
 
+.story {
+    margin: 4em;
+}
+
 .DumbbellsIcon {
     list-style-image: url(icons/dumbbell50px.png);
     padding: 10px;
-    margin: 50px 20px 20px;
+    margin: 3em;
     line-height: 2rem;
+}
+
+.Coach-can {
+    margin: 2em;
 }
 
 /* button */
@@ -457,6 +466,7 @@ textarea {
     overflow: hidden;
     justify-content: center;
     text-align: center;
+    margin-top: 4em;
 }
 
 footer.name {
