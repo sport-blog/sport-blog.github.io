@@ -1,4 +1,4 @@
-﻿/*
+/*
 1. header-
 2. content
     Usloviya
@@ -15,9 +15,11 @@
 }
 
 body {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
     margin-top: 0.6rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
 }
 
 html {
@@ -186,9 +188,6 @@ summary {
     clear: both;
 }
 
-.sclear {
-list-style-type: none;
-}
 
 /* button */
 
