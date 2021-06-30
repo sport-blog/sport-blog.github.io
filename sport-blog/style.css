@@ -461,8 +461,9 @@ textarea {
 
 .place-for-training {
     max-height: 550px;
-    width: 100%;
+    width: 70%;
     float: right;
+    padding: 10px;
 }
 
 #footer {
