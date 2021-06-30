@@ -461,6 +461,7 @@ textarea {
 
 .place_for_training {
     display: block;
+    max-height: 250px;
     float: right;
     padding: 10px;
 }
