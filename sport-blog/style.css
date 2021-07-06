@@ -35,7 +35,6 @@ ul {
 
 .wrapper {
     padding: 0 120px;
-    margin: 0 10px;
 }
 
 h4 {
@@ -685,5 +684,8 @@ footer a {
     }
     .zal {
         flex-direction: column;
+    }
+    .photo-coach {
+        max-width: 90%;
     }
 }
