@@ -26,21 +26,21 @@
 
 .aside {
     grid-area: aside;
-    background-color: orchid;
-    color: #FFFFFF;
+    background-color: #ccd3dd;
+    color: #445162;
 }
 
 .main {
     grid-area: main;
-    background-color: rgb(241, 141, 129);
+    background-color: #ccd3dd;
     min-width: 280px;
-    color: #000000;
+    color: #445162;
 }
 
 .my_works {
     grid-area: my_works;
-    background-color: rgb(162, 122, 185); 
-    color: #FFFFFF;
+    background-color: #bec7d3; 
+    color: #445162;
 }
 
 .footer {
