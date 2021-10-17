@@ -26,20 +26,20 @@
 
 .aside {
     grid-area: aside;
-    background-color: #ccd3dd;
+    background-color: #caced4;
     color: #445162;
 }
 
 .main {
     grid-area: main;
-    background-color: #ccd3dd;
+    background-color: #caced4;
     min-width: 280px;
     color: #445162;
 }
 
 .my_works {
     grid-area: my_works;
-    background-color: #bec7d3; 
+    background-color: #b3b9c0; 
     color: #445162;
 }
 
