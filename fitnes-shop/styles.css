@@ -1,0 +1,438 @@
+@font-face {
+    font-family: IBM PS ExtraLight Italic;
+    src: url(/font/IBM PS ExtraLight Italic/woff/ibm-plex-sans-extralight-italic.woff2);
+    src: url(/font/IBM PS ExtraLight Italic/woff/ibm-plex-sans-extralight-italic.woff);
+    src: url(/font/IBM PS ExtraLight Italic/woff/ibm-plex-sans-italic.woff2);
+    src: url(/font/IBM PS ExtraLight Italic/woff/ibm-plex-sans-italic.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    max-width: 1250px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "my_works"
+    "aside"
+    "main"
+    "footer";    
+    gap: 2px;
+    position: absolute;
+}
+
+.header {
+    grid-area: header;
+    background-color: #535353;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: ibm ibm-plex-sans-extralight-italic;
+}
+
+.aside {
+    grid-area: aside;
+    background-color: #e3e4e6;
+    color: #535353;
+}
+
+.main {
+    grid-area: main;
+    background-color: #e3e4e6;
+    min-width: 280px;
+    color: #535353;
+}
+
+.my_works {
+    grid-area: my_works;
+    background-color: #e3e4e6; 
+    color: #535353;
+}
+
+.footer {
+    grid-area: footer;
+    background-color:#535353;
+}
+
+.container {
+    padding: 1rem;
+}
+
+.dws-menu * {
+    margin: 0;
+    padding: 0;
+    font-family: Cuprum, Arial, Helvetica, sans-serif;
+}
+
+.dws-menu ul,
+.dws-menu ol {
+    list-style: none;
+}
+
+.dws-menu>ul {
+    display: flex;
+    justify-content: center;
+}
+
+.dws-menu>ul li {
+    position: relative;
+    border-right: 1px solid #c7c8ca;
+}
+
+.dws-menu>ul li:first-child {
+    border-left: 1px solid #b2b3b5;
+}
+
+.dws-menu>ul li:last-child {
+    border-right: 1px solid #babbbd;
+}
+
+.dws-menu>ul li>a i.fa {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    font-size: 18px;
+}
+
+.dws-menu>ul li a {
+    display: block;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c9c9c9+0,f6f6f6+2,c4c5c7+98,757577+100;Custom+3 */
+    background: rgb(201, 201, 201);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(201, 201, 201, 1) 0%, rgba(246, 246, 246, 1) 2%, rgba(196, 197, 199, 1) 98%, rgba(117, 117, 119, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(201, 201, 201, 1) 0%, rgba(246, 246, 246, 1) 2%, rgba(196, 197, 199, 1) 98%, rgba(117, 117, 119, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(201, 201, 201, 1) 0%, rgba(246, 246, 246, 1) 2%, rgba(196, 197, 199, 1) 98%, rgba(117, 117, 119, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#757577', GradientType=0);
+    /* IE6-9 */
+    padding: 5px 40px 5px 50px;
+    font-size: 14px;
+    color: #454547;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.dws-menu li a: hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e0e1e5+0,454547+2,454547+98,e0e1e5+100 */
+    background: rgb(224, 225, 229);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(224, 225, 229, 1) 0%, rgba(69, 69, 71, 1) 2%, rgba(69, 69, 71, 1) 98%, rgba(224, 225, 229, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(224, 225, 229, 1) 0%, rgba(69, 69, 71, 1) 2%, rgba(69, 69, 71, 1) 98%, rgba(224, 225, 229, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(224, 225, 229, 1) 0%, rgba(69, 69, 71, 1) 2%, rgba(69, 69, 71, 1) 98%, rgba(224, 225, 229, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e0e1e5', endColorstr='#e0e1e5', GradientType=0);
+    /* IE6-9 */
+    color: #ffffff;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+
+
+/*sub menu*/
+
+.dws-menu li ul {
+    position: absolute;
+    min-width: 150px;
+    display: none;
+}
+
+.dws-menu li>ul li {
+    border: 1px solid #c7c8ca;
+}
+
+.dws-menu li>ul li a {
+    padding: 10px;
+    text-transform: none;
+    background: #e4e4e5;
+}
+
+.dws-menu li>ul li ul {
+    position: absolute;
+    right: -150px;
+    top: 0;
+}
+
+.dws-menu li:hover>ul {
+    display: block;
+}
+
+.dws-menu [type="checkbox"],
+.dws-menu label.toggleSubmenu {
+    display: none;
+}
+
+.dws-menu label.toggleMenu {
+    background: rgb(201, 201, 201);
+    background: -moz-linear-gradient(top, rgba(201, 201, 201, 1) 0%, rgba(246, 246, 246, 1) 2%, rgba(196, 197, 199, 1) 98%, rgba(117, 117, 119, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(201, 201, 201, 1) 0%, rgba(246, 246, 246, 1) 2%, rgba(196, 197, 199, 1) 98%, rgba(117, 117, 119, 1) 100%);
+    background: linear-gradient(to bottom, rgba(201, 201, 201, 1) 0%, rgba(246, 246, 246, 1) 2%, rgba(196, 197, 199, 1) 98%, rgba(117, 117, 119, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#757577', GradientType=0);
+    display: none;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+}
+
+.dws-menu label.toggleMenu .fa {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    font-size: 18px;
+}
+
+@media all and (max-width: 800px) {
+    .dws-menu {
+        overflow: hidden;
+    }
+    .dws-menu ul {
+        display: block;
+        max-height: 0;
+        transition: max-height 0.3s;
+    }
+    .dws-menu li>ul li ul {
+        position: absolute;
+        right: auto;
+        top: auto;
+    }
+    .dws-menu label.toggleMenu {
+        display: block;
+    }
+    input.toggleMenu:checked+label.toggleMenu {
+        background: #000;
+        color: #fff;
+    }
+    input.toggleMenu:checked~ul,
+    input.toggleSubmenu:checked~ul {
+        display: block;
+        position: relative;
+        max-height: 5000px;
+        transition: max-height 2s ease-in;
+    }
+    .dws-menu label.toggleSubmenu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        display: block;
+    }
+    input.toggleSubmenu:checked~a {
+        background: #454547;
+        color: #fff;
+    }
+    .dws-menu label.toggleSubmenu .fa:before {
+        content: "\f0d7";
+        color: #454547;
+    }
+    .dws-menu label.toggleSubmenu .fa {
+        position: absolute;
+        top: 15px;
+        right: 30px;
+    }
+    .dws-menu input.toggleSubmenu:checked~label.toggleSubmenu .fa::before {
+        content: "\f0d8";
+        color: #ffffff;
+    }
+}
+
+.my_photo {
+    max-width: 100%;
+    min-width: 260px;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h4 {
+    text-align: center;
+    font-size: 24px;
+    padding: 1rem;
+}
+
+h5 {
+    font-size: 26px;
+    padding: 1rem;
+}
+
+h6 {
+    font-size: 20px;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.my_works {
+    display: grid;
+    padding: 1rem;
+    gap: 10px;
+}
+
+.about {
+    text-align: start;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.case {
+    display: grid;
+    gap: 20px;
+}
+
+.explanation {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 12px;
+}
+
+.example {
+    max-width: 100%;
+    min-width: 150px;
+    box-shadow: 8px 8px 8px rgb(82, 82, 82);
+}
+
+.example:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.box_example__comment {
+    font-size: 14px;
+}
+
+.resume {
+    text-align: start;
+}
+
+.resume__items {
+    list-style-type: none;
+    font-size: 20px;
+    padding-top: 1rem;
+    font-style: italic;
+}
+
+.container-footer {
+    padding: 2% 12% 2% 20%;
+    color: #FFFFFF;
+}
+
+.tel {
+    display: inline;
+}
+
+#name,
+#email,
+#message {
+    margin-bottom: 20px;
+    padding: 8px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #6E7884;
+    width: 95%;
+}
+
+.contacts {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sr-only {
+    display: none;
+}
+
+.contact-info {
+    padding: 5px;
+    background-color: #535353;
+    color: #FFFFFF;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: start;
+}
+
+.icon_ft {
+    width: 30px;
+}
+
+.icon_ft__lower {
+    width: 60px;
+}
+
+.ft__lower {
+    width: 50px;
+}
+
+.tel {
+    font-size: 22px;
+}
+
+a {
+    color: #969696;
+    text-decoration: none;
+    font-size: 18px;
+    justify-content: center;
+}
+
+a>img {
+    vertical-align: middle;
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+@media screen and (min-width: 550px){
+    .wrapper {
+        left: 15%;
+        right: 15%;
+        text-align: center;
+    }
+    .nav-link {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .wrapper {
+        grid-template-columns: 5fr 6fr; 
+        grid-template-areas: 
+        "header header"
+        "my_works my_works"
+        "aside main"
+        "footer footer"    
+    }
+    .case {
+        text-align: center;
+    }
+    .nav-link {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1050px){
+    .case {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }    
+}
+
+
+
